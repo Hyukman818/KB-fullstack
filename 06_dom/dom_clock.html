@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>dom_clock</title>
+    <script>
+        // 이벤트 연결
+      window.onload = function () {
+        // 문서 객체를 선택
+        let clock = document.getElementById('clock');
+        // 1초마다 함수 실행
+        setInterval(function () {
+          let now = new Date();
+          clock.innerHTML = now.toString();
+          // toString() 써주는 이유는 innerHTML이 HTML 태그를 반영해서 가져오는거니까
+          // 조금이라도 안전하게 문자열 형태로 보내주기 위함임
+        }, 1000);
+      };
+    </script>
+  </head>
+  <body>
+    <h1 id="clock"></h1>
+  </body>
+</html>
