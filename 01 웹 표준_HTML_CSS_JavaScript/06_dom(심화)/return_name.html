@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>return_name</title>
+    <script>
+      window.onload = function () {
+        let btn = document.getElementById('btn'); // id 'btn' 가져와서 변수 설정
+        let inputName = document.getElementById('name'); // id 'name'을 inputName이라는 변수로 가져오기
+
+        // 변수 btn을 클릭했을때, 변수 inputName에 입력한 내용 콘솔에 출력
+        btn.addEventListener('click', function () {
+          console.log(inputName.value);
+        });
+      };
+    </script>
+  </head>
+  <body>
+    <h1>return_name</h1>
+
+    <form>
+      <label for="name">이름:</label>
+      <input id="name" name="name" type="text" size="30" />
+      <input id="btn" type="button" value="전송" />
+    </form>
+  </body>
+</html>

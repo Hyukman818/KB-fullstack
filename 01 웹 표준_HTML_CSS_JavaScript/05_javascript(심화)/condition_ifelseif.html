@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>condition_ifelseif</title>
+    <script>
+      let nowTime = new Date().getHours(); // 오늘 날짜 받고, 현재 시간까지 받음
+      console.log(nowTime); // 현재 시간 출력
+
+      //   nowTime = 13;  테스트용 입력
+
+      if (nowTime < 5) {
+        alert('잠을 자렴...');
+      } else if (nowTime >= 5 && nowTime < 7) {
+        alert('준비');
+      } else if (nowTime >= 7 && nowTime < 9) {
+        alert('출근');
+      } else if (nowTime >= 9 && nowTime < 12) {
+        alert('빈둥 빈둥');
+      } else if (nowTime >= 12 && nowTime < 14) {
+        alert('식사');
+      } else {
+        alert('여러 가지 업무를 수행합니다.');
+      }
+    </script>
+  </head>
+  <body></body>
+</html>

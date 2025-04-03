@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>function_callback</title>
+    <script>
+      // 반복 호출 횟수 : callback_times
+      // 변수 직접 입력하는 방법은 몰라서 임의로 숫자 입력
+      let callback_times = 4; // 4번 반복 호출
+
+      // 반복 횟수 직접 입력 받고싶어서 callback_times 라는 변수도 따로 줌
+      function callback_again(callback, callback_times) {
+        callback(callback_times);
+        // 함수 진행 순서 ...
+        // callback(4)
+      }
+
+      // 함수 func_callback 은 변수 count만큼 '함수호출'을 출력하는 함수.
+      let func_callback = function (count) {
+        for (let i = 0; i < count; i++) alert('함수호출');
+      };
+
+      // 맨 위에 적은 callback_again 함수 재호출
+      // callback_again(func_callback, 4);
+      // callback_again은 func_callback 함수를 불러와서(callback 해서) 4라는 숫자를 대입하는거임
+      // callback_again 함수 내부에서 callback이라고 적힌 부분을 '인자 callback'으로 바꿔치기 하면됨
+      callback_again(func_callback, callback_times);
+      // 결국 funck_callback(4) 를 호출하는 것과 같음
+    </script>
+  </head>
+  <body></body>
+</html>
