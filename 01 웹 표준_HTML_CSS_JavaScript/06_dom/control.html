@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dom Basic</title>
+    <script>
+      window.onload = function () {
+        const $control = document.querySelectorAll;
+        let output = '';
+        // console.log($control[0]);
+        // console.log($control.length);
+
+        // for (let i = 0; i < 10; i++) {
+        //   output += `<h1>Header - ${i}</h1>`;
+        // }
+
+        // document.body.textContent = output;
+        for (let i = 0; i < 10; i++) {
+          output += '<h1>Header - ' + i + '</h1>';
+        }
+        document.body.innerHTML = output;
+      };
+    </script>
+  </head>
+  <body></body>
+</html>
