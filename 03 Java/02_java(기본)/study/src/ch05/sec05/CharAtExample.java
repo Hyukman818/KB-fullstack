@@ -5,7 +5,7 @@ public class CharAtExample {
         String ssn = "9506241230123";
 
         char gender = ssn.charAt(6);
-        System.out.println(gender);
+        System.out.println(gender); // 주민번호 뒷자리 첫 숫자 출력
 
         if(gender == '1'||gender=='3'){
             System.out.println("남자입니다.");
