@@ -24,6 +24,17 @@ public class Car {
     // 주행이 가능한 상태라면 "달립니다.(gas잔량: xxx)" 출력
     // 주행할 수 없는 상태라면 "멈춥니다.(gas잔량: xxx)" 출력 후 메소드를 종료
     void run() {
+        while(true) {
+            if (gas > 0) {
+                System.out.println("달립니다.(gas잔량: " + gas + ")");
+            } else {
+                System.out.println("멈춥니다.(gas잔량: " + gas + ")");
+                return;
+            }
+            gas--;
+        }
     }
+
+
 
 }
