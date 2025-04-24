@@ -23,7 +23,7 @@ public class CalendarExample {
         }
 
         int amPm = now.get(Calendar.AM_PM);
-        String strAMPM = null;
+        String strAMPM = null; // 초기화 꼭 해줘야 함
         if(amPm == Calendar.AM) strAMPM = "오전";
         else strAMPM = "오후";
 
