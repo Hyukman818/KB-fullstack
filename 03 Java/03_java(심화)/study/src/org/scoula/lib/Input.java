@@ -7,11 +7,12 @@ public class Input {
 
     public static String read(String title){
         System.out.print(title);
-        return scanner.nextLine();
+        String userInput = scanner.nextLine();
+        return userInput;
     }
 
     public static String read(String title, String defaultValue){
-        System.out.print(defaultValue);
+        System.out.printf("%s(%s): ", title, defaultValue);
 
         String userInput = scanner.nextLine();
         if(userInput.isEmpty()){
@@ -27,7 +28,8 @@ public class Input {
         return Integer.parseInt(scanner.nextLine());
     }
 
-    boolean confirm(String title, boolean defaultValue){
+
+    public static boolean confirm(String title, boolean defaultValue){
         if(defaultValue == true){
             System.out.print(title + " (Y/n): ");
         }
@@ -39,8 +41,16 @@ public class Input {
         if(userInput.isEmpty()){
             return defaultValue;
         }
-
+        else if(userInput.equalsIgnoreCase("y")){
+            return true;
+        }
+        else {
+            return false;
+        }
         // 솔직히 이 return문 왜 하는지 모르겠음
-        return userInput.equalsIgnoreCase("y");
+    }
+
+    public static boolean confirm(String title){
+        return confirm(title, true);
     }
 }
