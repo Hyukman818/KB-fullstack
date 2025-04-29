@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="205ba55d-b393-4890-9049-e6cfc8e98e90" name="Changes" comment="" />
+    <list default="true" id="205ba55d-b393-4890-9049-e6cfc8e98e90" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/study/src/ch11/sec06/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/study/src/ch11/sec06/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study/src/ch11/sec06/AccountExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/study/src/ch11/sec06/AccountExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study/src/ch11/sec06/InsufficientException.java" beforeDir="false" afterPath="$PROJECT_DIR$/study/src/ch11/sec06/InsufficientException.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,9 +17,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2wJ59B42kilIZwK0kNEN6tRLNF5" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -23,7 +30,12 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
@@ -31,8 +43,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-a94e463ab2e7-intellij.indexing.shared.core-IU-243.26053.27" />
-        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-IU-243.26053.27" />
+        <option value="bundled-jdk-9823dce3aa75-125ca727e0f0-intellij.indexing.shared.core-IU-243.24978.46" />
+        <option value="bundled-js-predefined-d6986cc7102b-76f8388c3a79-JavaScript-IU-243.24978.46" />
       </set>
     </attachedChunks>
   </component>
@@ -45,6 +57,7 @@
       <option name="presentableId" value="Default" />
       <updated>1745746683962</updated>
       <workItem from="1745746685524" duration="22000" />
+      <workItem from="1745912230404" duration="2140000" />
     </task>
     <servers />
   </component>

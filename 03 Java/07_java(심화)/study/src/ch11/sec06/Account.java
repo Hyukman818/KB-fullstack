@@ -3,7 +3,8 @@ package ch11.sec06;
 public class Account {
     private long balance;
 
-    public Account() { }
+    public Account() {
+    }
 
     public long getBalance() {
         return balance;
@@ -13,12 +14,11 @@ public class Account {
         balance += money;
     }
 
-    public void withdraw(int money) {
-        if (balance >= money){ // 잔액이 인출 금액보다 크면 인출 진행
+    public void withdraw(int money) throws InsufficientException {
+        if (balance >= money) { // 잔액이 인출 금액보다 크면 인출 진행
             balance -= money;
-        }
-        else { // 잔액이 인출하려는 금액보다 작으면 예외 처리
-            throw new InsufficientException;
+        } else { // 잔액이 인출하려는 금액보다 작으면 예외 처리
+            throw new InsufficientException("예외 발생");
         }
     }
 }
