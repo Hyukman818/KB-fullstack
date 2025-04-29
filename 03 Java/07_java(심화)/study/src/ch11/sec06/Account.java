@@ -14,5 +14,11 @@ public class Account {
     }
 
     public void withdraw(int money) {
+        if (balance >= money){ // 잔액이 인출 금액보다 크면 인출 진행
+            balance -= money;
+        }
+        else { // 잔액이 인출하려는 금액보다 작으면 예외 처리
+            throw new InsufficientException;
+        }
     }
 }
