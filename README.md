@@ -53,18 +53,42 @@
 ## 04 MySQL 기반 RDBMS 활용과 JDBC
 | 항목 | 디렉토리 명 | 기본 | 심화 | 
 |------|:----:|:----:|:----:|
-| 01 DBMS 개요, 설치, 전체 운영 실습 | 01_mysql | ☐ | ☐ |
-| 02 데이터베이스 모델링, MySQL 유틸리티 사용법 | 02_mysql | ☐ | ☐ |
-| 03 SQL 기본 | 03_mysql | ☐ | ☐ |
-| 04 SQL 고급 | 04_mysql | ☐ | ☐ |
-| 05 테이블, 뷰 | 05_mysql | ☐ | ☐ |
-| 06 인덱스, 사용자 관리 | 06_mysql | ☐ | ☐ |
-| 07 Java 연동 JDBC 프로그래밍 | 07_mysql | ☐ | ☐ |
+| 01 DBMS 개요, 설치, 전체 운영 실습 | 01_mysql | ☑ | ☐ |
+| 02 데이터베이스 모델링, MySQL 유틸리티 사용법 | 02_mysql | ☑ | ☐ |
+| 03 SQL 기본 | 03_mysql | ☑ | ☑ |
+| 04 SQL 고급 | 04_mysql | ☑ | ☑ |
+| 05 테이블, 뷰 | 05_mysql | ☑ | ☐ |
+| 06 인덱스, 사용자 관리 | 06_mysql | ☑ | ☐ |
+| 07 Java 연동 JDBC 프로그래밍 | 07_mysql | ☑ | ☐ |
 | 08 Java 연동 JDBC 프로그래밍-Travel | 08_mysql | ☐ | ☐ |
 ---
 ## 05 NoSQL 기반 MongoDB
 | 항목 | 디렉토리 명 | 기본 | 심화 | 
 |------|:----:|:----:|:----:|
-| 01 MongoDB | 01_mongo | ☐ | ☐ |
-| 02 몽고DB Java연동 | 02_mongo | ☐ | ☐ |
+| 01 MongoDB | 01_mongo | ☑ | ☐ |
+| 02 몽고DB Java연동 | 02_mongo | ☑ | ☐ |
+---
+## 06 Servlet, JSP, JSTL 기반 서버 프로그래밍
+| 항목 | 디렉토리 명 | 기본 | 심화 | 
+|------|:----:|:----:|:----:|
+| 01 서블릿 기초 | 01_servlet | ☑ | ☑ |
+| 02 JSP의 이해 | 02_servlet | ☐ | ☐ |
+| 03 서블릿 심화 | 03_servlet | ☑ | ☐ |
+| 04 요청 포워딩, EL, JSTL | 04_servlet | ☑ | ☐ |
+| 05 FrontController | 05_servlet | ☑ | ☑ |
+---
+## 07 Spring Framework를 활용한 애플리케이션 개발
+| 항목 | 디렉토리 명 | 기본 | 심화 | 
+|------|:----:|:----:|:----:|
+| 01 Spring 이해 | 01_spring | ☑ | ☐ |
+| 02 Spring MVC | 02_spring | ☑ | ☐ |
+| 03 Spring-MyBatis 연동 | 03_spring | ☑ | ☐ |
+| 04 Spring 기본 개시판 | 04_spring | ☑ | ☐ |
+| 05 Spring 기본 개시판, 파일 업로드 | 05_spring | ☑ | ☑ |
+| 06 Rest | 06_spring | ☑ | ☐ |
+| 07 OpenAPI | 07_spring | ☑ | ☐ |
+| 08 Spring AOP | 08_spring | ☑ | ☐ |
+| 09 Spring Security Form 인증 | 09_spring | ☑ | ☐ |
+| 10 Spring Security JWT 인증 | 10_spring | ☑ | ☐ |
+| 11 Spring Security JWT 인증2 | 11_spring | ☑ | ☐ |
 ---
