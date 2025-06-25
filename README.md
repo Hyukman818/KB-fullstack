@@ -68,3 +68,27 @@
 | 01 MongoDB | 01_mongo | ☑ | ☐ |
 | 02 몽고DB Java연동 | 02_mongo | ☑ | ☐ |
 ---
+## 06 Servlet, JSP, JSTL 기반 서버 프로그래밍
+| 항목 | 디렉토리 명 | 기본 | 심화 | 
+|------|:----:|:----:|:----:|
+| 01 서블릿 기초 | 01_servlet | ☑ | ☑ |
+| 02 JSP의 이해 | 02_servlet | ☐ | ☐ |
+| 03 서블릿 심화 | 03_servlet | ☑ | ☐ |
+| 04 요청 포워딩, EL, JSTL | 04_servlet | ☑ | ☐ |
+| 05 FrontController | 05_servlet | ☑ | ☑ |
+---
+## 07 Spring Framework를 활용한 애플리케이션 개발
+| 항목 | 디렉토리 명 | 기본 | 심화 | 
+|------|:----:|:----:|:----:|
+| 01 Spring 이해 | 01_spring | ☑ | ☐ |
+| 02 Spring MVC | 02_spring | ☑ | ☐ |
+| 03 Spring-MyBatis 연동 | 03_spring | ☑ | ☐ |
+| 04 Spring 기본 개시판 | 04_spring | ☑ | ☐ |
+| 05 Spring 기본 개시판, 파일 업로드 | 05_spring | ☑ | ☑ |
+| 06 Rest | 06_spring | ☑ | ☐ |
+| 07 OpenAPI | 07_spring | ☑ | ☐ |
+| 08 Spring AOP | 08_spring | ☑ | ☐ |
+| 09 Spring Security Form 인증 | 09_spring | ☑ | ☐ |
+| 10 Spring Security JWT 인증 | 10_spring | ☑ | ☐ |
+| 11 Spring Security JWT 인증2 | 11_spring | ☑ | ☐ |
+---
